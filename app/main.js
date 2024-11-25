@@ -1,5 +1,7 @@
 const dgram = require("dgram");
 
+// initializing udp socket
+
 const udpSocket = dgram.createSocket("udp4");
 udpSocket.bind(2053, "127.0.0.1");
 
